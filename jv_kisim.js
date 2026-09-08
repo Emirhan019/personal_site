@@ -8,8 +8,19 @@ function window_close(x){
         case 2:
             document.getElementById("window_info_2").style.display = "none";
             break;
+        case 3:
+           document.getElementById("window_info_3").style.display = "none";
+            break; 
+        case 4:
+             document.getElementById("window_info_4").style.display = "none";
+            break; 
     }
 
+}
+ 
+function css_close(){
+    const page = document.getElementById("active_one");
+    page.disabled = true;
 }
 
 function uygulama(x) {
@@ -20,7 +31,12 @@ function uygulama(x) {
     case 2:        
         document.getElementById("window_info_2").style.display = "block";
         break;
-
+    case 3:
+        document.getElementById("window_info_3").style.display = "block";
+        break;
+    case 4:
+        document.getElementById("window_info_4").style.display = "block";
+        break;
 }
 
 }
@@ -116,9 +132,13 @@ async function finish_cod() {
         return
     }
     else {
-    skip();
     await delay(200);
     pc_kisim.style.animation = "opening_animation 3s forwards";
+    skip();
+
+    
+    
+    
 }
 }
 

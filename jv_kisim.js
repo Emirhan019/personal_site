@@ -144,8 +144,3 @@ async function finish_cod() {
 
 
 
-
-
-
-//CONNECTING_TO_COMPUTER...    --YAKASHI_S_DOMAIN--     DATE_TIME:
-

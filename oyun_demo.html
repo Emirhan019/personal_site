@@ -15,7 +15,12 @@
         border: 10px solid salmon ;
         background-color: bisque;
             }
-        
+        .i_frame{
+            position: absolute;
+            top: 40%;
+            left: 20%;
+            z-index: 10;
+        }
         
     </style>
 
@@ -24,8 +29,9 @@
     <div class="container">
     <p id="hp">PLACE_HOLDER</p>
     <button id="button" onclick="gameLoop(), closebutton()">xxxxxx</button>
+    <div class="i_frame" id="i_frame_info"></div>
     <canvas height="600" width="800" id="canvass">
-
+        
     </canvas>
     </div>
     <script src="oyun_demo.js"></script>
